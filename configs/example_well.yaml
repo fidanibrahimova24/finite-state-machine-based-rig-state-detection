@@ -1,0 +1,27 @@
+well:
+  id: example-well
+  sampling_interval: auto
+  native_unit_system: auto
+
+# Source names must be confirmed from the EDR header. Do not guess.
+columns:
+  timestamp: TIMESTAMP
+  bit_depth: DBTM
+  hole_depth: DMEA
+  hook_load: HKLD
+  block_position: BPOS
+  flow_in: MFIA
+  standpipe_pressure: SPPA
+  rotary_rpm: RPMA
+  rotary_torque: TQA
+  wob: WOBA
+  rop: ROPA
+
+# Replace with the actual well program. These placeholder rows are not loaded
+# automatically and must never be copied to another well without verification.
+bit_sections:
+  - {top_depth_ft: REPLACE, base_depth_ft: REPLACE, bit_diameter_in: REPLACE}
+
+fsm:
+  threshold_profile: default
+  overrides: {}

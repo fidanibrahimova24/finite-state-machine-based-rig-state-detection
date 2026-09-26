@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "Development of an Open-Source Finite-State Machine Model for Automated Classification of Drilling Rig Operational States Using Real-Time Surface Drilling Data"
+type: software
+authors:
+  - family-names: Ibrahimova
+    given-names: Fidan
+version: 0.2.0-rc1
+date-released: 2026-09-26
+license: MIT
