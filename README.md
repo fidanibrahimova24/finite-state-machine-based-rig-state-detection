@@ -13,8 +13,8 @@ The engine distinguishes drilling, circulating/rotating, connection, stationary,
 ## Install
 
 ```bash
-git clone https://github.com/<OWNER>/<REPOSITORY>.git
-cd contextual-rig-state-fsm
+git clone https://github.com/fidanibrahimova24/finite-state-machine-based-rig-state-detection.git
+cd finite-state-machine-based-rig-state-detection
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install --upgrade pip
